@@ -1,0 +1,68 @@
+# 忽略 data 目录下所有文件（包括所有子目录中的文件）
+data/**/*
+
+# 不忽略目录本身
+!data/**/
+!data/
+# 不忽略 .gitkeep
+!data/**/.gitkeep
+
+check_points/**/*
+!check_points/**/
+!check_points/
+!check_points/**/.gitkeep
+
+# Include the published seed-42 checkpoint.
+!/check_points/original_pretrained/seed_42/best_train_checkpoint.pth
+
+predictions/**/*
+!predictions/**/
+!predictions/
+!predictions/**/.gitkeep
+
+images/**/*
+!images/**/
+!images/
+!images/**/.gitkeep
+
+# .gitignore
+!**/README*
+
+# 忽略所有 __pycache__ 文件夹
+**/__pycache__/
+
+**/disuse/
+
+# 忽略 MadirdAllinOne 文件夹中的所有内容
+MadridAllinOne/**/*
+# 不忽略 MadirdAllinOne 文件夹本身
+!MadridAllinOne/
+# 不忽略 .gitkeep 文件（可选，如果你想保持空文件夹）
+!MadridAllinOne/.gitkeep
+
+# Include the spatial partition required by the main experiment's NPSampler1.
+!/MadridAllinOne/DLData/
+!/MadridAllinOne/DLData/train/
+!/MadridAllinOne/DLData/train/cluster_id_road_graph.csv
+
+
+# 忽略 MadirdAllinOne 文件夹中的所有内容
+logs/**/*
+# 不忽略 MadirdAllinOne 文件夹本身
+!logs/
+# 不忽略 .gitkeep 文件（可选，如果你想保持空文件夹）
+!logs/.gitkeep
+
+.vscode/
+
+tricks.md
+.cursor/
+
+# Local analysis notebooks are excluded from the open-source release.
+/notebooks/
+
+# Generated experiment outputs.
+/outputs/
+
+# Local data publishing helper; not part of the public implementation.
+/scripts/upload_data_gdrive.sh

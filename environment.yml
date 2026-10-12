@@ -1,0 +1,34 @@
+# Original experiment environment: py311cu118ch260.
+# Target: Linux x86_64. CUDA 11.8 runtime libraries come from the pinned wheels.
+# Conda runtime dependencies retain their original versions and builds.
+name: taanp
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - defaults::python=3.11.11=he870216_0
+  - defaults::pip=25.1=pyhc872135_2
+  - defaults::setuptools=78.1.1=py311h06a4308_0
+  - defaults::wheel=0.45.1=py311h06a4308_0
+  - defaults::tk=8.6.14=h39e8969_0
+  - defaults::_libgcc_mutex=0.1=main
+  - defaults::_openmp_mutex=5.1=1_gnu
+  - defaults::bzip2=1.0.8=h5eee18b_6
+  - defaults::ca-certificates=2025.9.9=h06a4308_0
+  - defaults::ld_impl_linux-64=2.40=h12ee557_0
+  - defaults::libffi=3.4.4=h6a678d5_1
+  - conda-forge::libgcc=15.1.0=h767d61c_2
+  - conda-forge::libgcc-ng=15.1.0=h69a702a_2
+  - conda-forge::libgomp=15.1.0=h767d61c_2
+  - conda-forge::libstdcxx=15.1.0=h8f9b012_2
+  - conda-forge::libstdcxx-ng=15.1.0=h4852527_2
+  - defaults::libuuid=1.41.5=h5eee18b_0
+  - defaults::ncurses=6.4=h6a678d5_0
+  - conda-forge::openssl=3.5.0=h7b32b05_1
+  - defaults::readline=8.2=h5eee18b_0
+  - defaults::sqlite=3.45.3=h5eee18b_0
+  - defaults::tzdata=2025b=h04d1e81_0
+  - defaults::xz=5.6.4=h5eee18b_1
+  - defaults::zlib=1.2.13=h5eee18b_1
+  - pip:
+      - -r requirements.txt
