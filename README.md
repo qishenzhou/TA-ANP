@@ -1,6 +1,6 @@
 # TA-ANP
 
-This repo is the official implementation for the paper accepted for publication in Transportation Research Part C: **Metropolis-Scale Resilient and Trustworthy Traffic Flow Inference Using Multi-Source Data**.
+This repo is the official implementation of [**Metropolis-scale resilient and trustworthy traffic flow inference using multi-source data**](https://doi.org/10.1016/j.trc.2026.106083) in *Transportation Research Part C: Emerging Technologies*.
 
 ## Overview
 
@@ -60,14 +60,18 @@ These commands train TA-ANP and evaluate its best training checkpoint with K=30.
 
 If you use this work, please cite:
 
-Qishen Zhou, Yifan Zhang, Michail A. Makridis, Anastasios Kouvelas, Yibing Wang, and Simon Hu. *Metropolis-Scale Resilient and Trustworthy Traffic Flow Inference Using Multi-Source Data.* Transportation Research Part C: Emerging Technologies. Accepted for publication; DOI forthcoming.
+Qishen Zhou, Yifan Zhang, Michail A. Makridis, Anastasios Kouvelas, Yibing Wang, and Simon Hu. Metropolis-scale resilient and trustworthy traffic flow inference using multi-source data. *Transportation Research Part C: Emerging Technologies*, **194**, 106083, 2027. [https://doi.org/10.1016/j.trc.2026.106083](https://doi.org/10.1016/j.trc.2026.106083).
 
 ```bibtex
 @article{zhou_taanp,
-  title   = {Metropolis-Scale Resilient and Trustworthy Traffic Flow Inference Using Multi-Source Data},
+  title   = {Metropolis-scale resilient and trustworthy traffic flow inference using multi-source data},
   author  = {Zhou, Qishen and Zhang, Yifan and Makridis, Michail A. and Kouvelas, Anastasios and Wang, Yibing and Hu, Simon},
   journal = {Transportation Research Part C: Emerging Technologies},
-  note    = {Accepted for publication}
+  volume  = {194},
+  pages   = {106083},
+  year    = {2027},
+  doi     = {10.1016/j.trc.2026.106083},
+  url     = {https://doi.org/10.1016/j.trc.2026.106083}
 }
 ```
 
