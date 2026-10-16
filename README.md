@@ -60,7 +60,7 @@ These commands train TA-ANP and evaluate its best training checkpoint with K=30.
 
 If you use this work, please cite:
 
-Qishen Zhou, Yifan Zhang, Michail A. Makridis, Anastasios Kouvelas, Yibing Wang, and Simon Hu. Metropolis-scale resilient and trustworthy traffic flow inference using multi-source data. *Transportation Research Part C: Emerging Technologies*, **194**, 106083, 2027. [https://doi.org/10.1016/j.trc.2026.106083](https://doi.org/10.1016/j.trc.2026.106083).
+Qishen Zhou, Yifan Zhang, Michail A. Makridis, Anastasios Kouvelas, Yibing Wang, and Simon Hu. Metropolis-scale resilient and trustworthy traffic flow inference using multi-source data. *Transportation Research Part C: Emerging Technologies*, 194, 106083, 2027. [https://doi.org/10.1016/j.trc.2026.106083](https://doi.org/10.1016/j.trc.2026.106083).
 
 ```bibtex
 @article{zhou_taanp,
